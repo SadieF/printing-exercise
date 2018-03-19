@@ -15,11 +15,6 @@ function getAndPrintHTML () {
     response.on('data', function (data) {
       console.log(data += newData);
     });
-
-    response.on('end', function () {
-      console.log('Response stream complete.')
-    });
-
  })
 
 }
