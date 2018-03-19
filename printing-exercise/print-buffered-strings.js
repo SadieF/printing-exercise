@@ -8,6 +8,7 @@ function getAndPrintHTML () {
     path: '/http-examples/step2.html'
   };
 
+
  https.get(requestOptions, function (response) {
     var newData = "";
     response.setEncoding('utf8');
